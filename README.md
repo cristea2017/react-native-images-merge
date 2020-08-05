@@ -15,6 +15,3 @@ import ImagesMerge from 'react-native-images-merge';
 // TODO: What to do with the module?
 ImagesMerge;
 ```
-# react-native-images-merge
-# react-native-images-merge
-# cristea2017-react-native-images-merge

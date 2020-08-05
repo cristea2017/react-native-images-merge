@@ -1,7 +1,7 @@
 {
-  "name": "react-native-react-native-images-merge",
+  "name": "react-native-images-merge",
   "title": "React Native React Native Images Merge",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "TODO",
   "main": "index.js",
   "files": [
@@ -9,7 +9,7 @@
     "android",
     "index.js",
     "ios",
-    "react-native-react-native-images-merge.podspec"
+    "react-native-images-merge.podspec"
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
