@@ -19,3 +19,4 @@ import ImagesMerge from 'react-native-images-merge';
     })
 
 ```
+## This REPO IS IN PORGRESS NEED TO DO ANROID VERSION !!!
