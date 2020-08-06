@@ -3,7 +3,7 @@
 `react-native-images-merge` merges given images into a single image  (vertically).
  This will be helpful in a situation when you have to generate multiple images into a single image.
 
-![figure](https://rawgit.com/cristea2017/react-native-images-merge/master/media/figure.png)
+![figure](https://raw.githubusercontent.com/cristea2017/react-native-images-merge/master/media/figure.png)
 
 
 ## Getting started
