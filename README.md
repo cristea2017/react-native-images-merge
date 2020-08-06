@@ -17,7 +17,6 @@ $ npm install react-native-images-merge --save
 $ react-native link react-native-images-merge
 ```
 
-
 ## Usage
 ```javascript
 import ImagesMerge from 'react-native-images-merge';
@@ -31,7 +30,7 @@ import ImagesMerge from 'react-native-images-merge';
 
 ```
 ## This REPO IS IN PORGRESS !!!
+* ADDED : ANROID VERSION !!! 
 
 ## To Do:
-
-* ANROID VERSION !!!  
+* Test Android   
