@@ -15,14 +15,12 @@ class ImagesMerge : NSObject{
         }
       }
 
-      let size = CGSize(width: images[0].size.width , height: images[0].size.height * CGFloat(images.count))
+        let size = CGSize(width: images[0].size.width , height: images[0].size.height * CGFloat(imagesData.count))
        UIGraphicsBeginImageContext(size)
+        var lastPos : CGFloat = CGFloat(0)
       for img in images{
-        if images.firstIndex(of: img) == 0{
-          img.draw(in: CGRect(x: 0, y: 0, width: size.width, height: img.size.height ))
-        }else{
-          img.draw(in: CGRect(x: 0, y:img.size.height, width: size.width, height: img.size.height ))
-        }
+          img.draw(in: CGRect(x: 0, y:lastPos, width: size.width, height: img.size.height ))
+        lastPos += img.size.height
       }
 
       let myImage = UIGraphicsGetImageFromCurrentImageContext()
