@@ -1,8 +1,8 @@
 {
   "name": "react-native-images-merge",
   "title": "React Native Images Merge",
-  "version": "1.0.8",
-  "description": "TODO",
+  "version": "1.0.9",
+  "description": "Combine square images vertically",
   "main": "index.js",
   "files": [
     "README.md",

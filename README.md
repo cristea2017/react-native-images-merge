@@ -11,6 +11,10 @@
 ```bash
 $ npm install react-native-images-merge --save
 ```
+```
+cd ios 
+pod install
+```
 ## Mostly automatic installation
 
 ```bash
@@ -29,8 +33,13 @@ import ImagesMerge from 'react-native-images-merge';
     })
 
 ```
-## This REPO IS IN PORGRESS !!!
+## This PACKAGE IS Finished!!!
 * ADDED : ANROID VERSION !!! 
+* Tested Android  !!! 
 
+## !!! Important !!!
+ This library was created for combine 2 or more minecraft blocks ,
+check this out :
+- [guide.bedrock.dev](https://github.com/karan/joe#readme)
 ## To Do:
-* Test Android   
+if someone want to help add a pull request

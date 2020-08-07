@@ -39,12 +39,21 @@ public class ImagesMergeModule extends ReactContextBaseJavaModule {
 
 
     @ReactMethod
-    public void mergeImages(Map<String, String> imgs, Callback callback) {
+    public void mergeImages(ReadableArray imgs , Callback callback) {
+
 
         ArrayList<Bitmap> bitmapArray = new ArrayList<Bitmap>();
 
+        ArrayList<String>  arr = new ArrayList<>();
 
-        for (String temp : imgs.values()) {
+        for (int i = 0; i < imgs.size(); i++) {
+            Log.i(TAG, "MyClass.getView() — get item number " +  imgs.getMap(0).getString("uri"));
+            final ReadableMap arg_object = imgs.getMap(i);
+            final String url = arg_object.getString("uri");
+            arr.add(url.substring(url.indexOf(",") + 1));
+        }
+        Log.i(TAG, "MyClass>> " + arr);
+        for (String temp : arr) {
             byte[] decodedString = Base64.decode(temp, Base64.DEFAULT);
             Bitmap imgBitmap = BitmapFactory.decodeByteArray(decodedString, 0, decodedString.length);
             bitmapArray.add(imgBitmap);
@@ -76,6 +85,5 @@ public class ImagesMergeModule extends ReactContextBaseJavaModule {
         String encoded = Base64.encodeToString(byteArray, Base64.DEFAULT);
         callback.invoke(encoded);
     }
-
 
 }
