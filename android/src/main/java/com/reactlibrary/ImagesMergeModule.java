@@ -11,11 +11,19 @@ import com.facebook.react.bridge.ReactApplicationContext;
 import com.facebook.react.bridge.ReactContextBaseJavaModule;
 import com.facebook.react.bridge.ReactMethod;
 import com.facebook.react.bridge.Callback;
+import com.facebook.react.bridge.ReadableArray;
+import com.facebook.react.bridge.ReadableMap;
+
+import org.json.JSONArray;
 
 import java.io.ByteArrayOutputStream;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
-import java.util.Map;
+import java.lang.Iterable;
+import java.util.Objects;
+
+import static android.content.ContentValues.TAG;
 
 public class ImagesMergeModule extends ReactContextBaseJavaModule {
 
