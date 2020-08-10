@@ -5,6 +5,9 @@
 
 ![figure](https://raw.githubusercontent.com/cristea2017/react-native-images-merge/master/media/figure.png)
 
+## Platform Supported
+* [x] Android
+* [x] iOS
 
 ## Getting started
 
@@ -33,13 +36,10 @@ import ImagesMerge from 'react-native-images-merge';
     })
 
 ```
-## This PACKAGE IS Finished!!!
-* ADDED : ANROID VERSION !!! 
-* Tested Android  !!! 
 
 ## !!! Important !!!
  This library was created for combine 2 or more minecraft blocks ,
 check this out :
-- [guide.bedrock.dev](https://github.com/karan/joe#readme)
+- [guide.bedrock.dev](https://guide.bedrock.dev/-/blocks-flipbooks#h.hd7i2pkvf0ha)
 ## To Do:
 if someone want to help add a pull request
