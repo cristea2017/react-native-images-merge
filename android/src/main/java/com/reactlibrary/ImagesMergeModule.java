@@ -1,4 +1,4 @@
-package com.reactlibrary;
+package com.reactlibraryimagesmerge;
 
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
